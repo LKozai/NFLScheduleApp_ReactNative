@@ -57,12 +57,11 @@ Open it in your browser or Expo Go on your device.
 
 ```
 nfl-schedule-app/
-├── assets/
-│   └── icon.png
 ├── components/
 │   ├── NFLSchedule.js
 ├── redux/
-│   ├── scheduleSlice.js
+│   ├── slices/
+        ├── scheduleSlice.js
 │   └── store.js
 ├── App.js
 ├── app.json
