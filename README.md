@@ -1,2 +1,84 @@
-# NFL_Schedule_ReactNative
-A mobile app that fetches the full NFL regular season schedule from a public API and allows users to view games by week, track final scores, and mark games as favourites. Features Redux-powered state management, navigation logic, and dynamic rendering based on game dates and results.
+# NFL Schedule App
+
+A mobile-friendly and intuitive React Native app built using Expo Snack. The app displays weekly NFL schedules with real-time scores and game information, powered by the FantasyData API.
+
+---
+
+## Features
+
+- **Weekly NFL Schedule:** View games for any week (1–18) with accurate dates and times.
+- **Live Scores:** See current or final scores for games that have started or finished.
+- **Team Matchups:** Clearly display home and away teams.
+- **Navigation Controls:** Easily switch between weeks using intuitive navigation buttons.
+- **Responsive Design:** Works seamlessly on mobile devices via Expo.
+- **State Management:** Utilizes Redux Toolkit for efficient state handling.
+
+---
+
+## Technologies Used
+
+- **React Native** with Expo
+- **Redux Toolkit**
+- **React Redux**
+- **FantasyData API** (requires key)
+- **React Native Paper** (UI components)
+- **JavaScript (ES6+)**
+
+---
+
+## Installation
+
+To run this project locally:
+
+### 1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/nfl-schedule-app.git
+cd nfl-schedule-app
+```
+
+### 2. Install dependencies:
+
+```bash
+npm install
+```
+
+### 3. Start the development server:
+
+```bash
+npm start
+```
+
+Open it in your browser or Expo Go on your device.
+
+---
+
+## Project Structure
+
+```
+nfl-schedule-app/
+├── assets/
+│   └── icon.png
+├── components/
+│   ├── NFLSchedule.js
+├── redux/
+│   ├── scheduleSlice.js
+│   └── store.js
+├── App.js
+├── app.json
+├── babel.config.js
+├── package.json
+└── README.md
+```
+
+---
+
+## API Reference
+
+**FantasyData NFL Schedule API**\
+(Requires subscription and API key)
+
+- **Endpoint format:**\
+  `https://api.sportsdata.io/v4/nfl/scores/json/Schedules/{season}`
+- **Authentication:** API Key via request headers
+- **Response:** JSON array with game details, including team names, scores, dates, and status
