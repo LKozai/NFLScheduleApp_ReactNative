@@ -1,6 +1,6 @@
 # NFL Schedule App
 
-A mobile-friendly and intuitive React Native app built using Expo Snack. The app displays weekly NFL schedules with real-time scores and game information, powered by the FantasyData API.
+A mobile-friendly and intuitive React Native app built using Expo Snack. The app displays weekly NFL schedules with real-time scores and game information, powered by TheRundown's API.
 
 ---
 
@@ -20,9 +20,8 @@ A mobile-friendly and intuitive React Native app built using Expo Snack. The app
 - **React Native** with Expo
 - **Redux Toolkit**
 - **React Redux**
-- **FantasyData API** (requires key)
-- **React Native Paper** (UI components)
-- **JavaScript (ES6+)**
+- **TheRundown API** (requires key)
+- **JavaScript**
 
 ---
 
@@ -74,8 +73,8 @@ nfl-schedule-app/
 
 ## API Reference
 
-**FantasyData NFL Schedule API**\
-(Requires subscription and API key)
+**TheRundown NFL Schedule API**\
+(Requires free subscription and API key)
 
 - **Endpoint format:**\
   `https://api.sportsdata.io/v4/nfl/scores/json/Schedules/{season}`
